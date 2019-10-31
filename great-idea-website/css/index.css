@@ -1,66 +1,129 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* *{
+	 border: 2px red solid !important; 
+} */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+body{
+	padding: 0 5% 10% 5%;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+a{
+	display: inline-block;
+	width: 16%;
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	margin: 1px;
 }
-body {
-	line-height: 1;
+.top{
+	margin: 25px;
 }
-ol, ul {
-	list-style: none;
+nav{
+	display: inline-block;
+	width: 75%;
+	/*  Stretch Goal #2 */
+	background-color: red;
+	position: fixed;
+	top: auto;
+	top: 0;
 }
-blockquote, q {
-	quotes: none;
+h1 {
+	font-size: 100px;
+	text-align: center;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+h2{
+	font-size: 30px;
+	margin: 5% 0;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+p{
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;	
+}
+h3{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	border: 1px gray solid;
+	font-size: 22px;
+	padding: 2%;
+}
+.logo{
+	float: right;
+	top: 0;
+	top: auto;
+	float: right;
+}
+.title-div{
+	margin: 45px;
+}
+.title{
+	display: inline-block;
+	width: 40%;
+	margin: 45px;
+	width: 42%;
+	text-align: center;
+}
+.header-img{
+	/* margin: 45px; */
+	float: right;
+	width: 34%;
+}
+.text-area{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+}
+.textOne{
+	margin: 15px 0 30px;
+}
+.features{
+	display: inline-block;
+	width: 49%;
+}
+.about{
+	display: inline-block;
+	width: 49.2%;
+	margin: 0 0 0 20px;
+}
+.middle-img{
+	width: 100%;
+}
+.textTwo{
+	padding-bottom: 25px;
+}
+.services{
+	display: inline-block;
+	width: 32%;
+}
+.product{
+	display: inline-block;
+	width: 32%;
+	margin: 0 0 0 20px;
+}
+.vision{
+	display: inline-block;
+	width: 32.4%;
+	margin: 0 0 0 20px;
+}
+.copyright{
+	margin-top: 20px;
+	text-align: center;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
 
-/* Your code starts here! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
