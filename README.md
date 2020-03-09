@@ -35,6 +35,12 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [ ] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
+Features page is done
+
 - [ ] Change all the image tags into background images instead
 
+All done
+
 - [ ] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
+
+https://www.w3schools.com/css/css3_animations.asp
